@@ -2,8 +2,14 @@
 
 ![Sam Twidale Website Build Status](https://github.com/Tw1ddle/personal-website/actions/workflows/main.yml/badge.svg)
 
-Templates and generation for my minimalist personal website, made using [Hugo](https://github.com/gohugoio/hugo).
+Templates and code creating my [personal website](https://www.samcodes.co.uk/), generated using [Hugo](https://github.com/gohugoio/hugo).
 
-# License Information
+
+
+# Licenses
 
 See the [LICENSE](https://github.com/Tw1ddle/personal-website/blob/master/LICENSE) file.
+
+# Notes
+
+Got an idea or suggestion? Open an issue on GitHub, or send Sam a message on [Twitter](https://twitter.com/Sam_Twidale).
