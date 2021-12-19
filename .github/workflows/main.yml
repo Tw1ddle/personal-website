@@ -32,7 +32,7 @@ jobs:
         with:
           personal_token: ${{ secrets.TOKEN }}
           external_repository: Tw1ddle/Tw1ddle.github.io
-          publish_dir: ./public
+          publish_dir: ./site/public
           #   keep_files: true
           user_name: sam
           user_email: samcodesit@gmail.com
