@@ -4,11 +4,9 @@
 
 Templates and code creating my [personal website](https://www.samcodes.co.uk/), generated using [Hugo](https://github.com/gohugoio/hugo).
 
-
-
 # Licenses
 
-See the [LICENSE](https://github.com/Tw1ddle/personal-website/blob/master/LICENSE) file.
+See the files in the [license](https://github.com/Tw1ddle/personal-website/blob/master/license) subdirectory.
 
 # Notes
 
