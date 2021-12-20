@@ -2,6 +2,8 @@
 
 ![Sam Twidale Website Build Status](https://github.com/Tw1ddle/personal-website/actions/workflows/main.yml/badge.svg)
 
+WORK IN PROGRESS
+
 Templates and code creating my [personal website](https://www.samcodes.co.uk/), generated using [Hugo](https://github.com/gohugoio/hugo).
 
 # Licenses
