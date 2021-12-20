@@ -30,11 +30,9 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
-          personal_token: ${{ secrets.TOKEN }}
-          external_repository: Tw1ddle/Tw1ddle.github.io
-          publish_dir: ./site/public
-          # keep_files: true
-          user_name: sam
-          user_email: samcodesit@gmail.com
-          publish_branch: master
-          # cname: example.com
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          enable_jekyll: false
+          keep_files: false
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
