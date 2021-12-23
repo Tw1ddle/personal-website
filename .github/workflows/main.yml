@@ -24,14 +24,14 @@ jobs:
           hugo-version: "0.91.0"
 
       - name: Build
-        run: cd site && hugo --minify # Remove --minify tag if you do not need it, docs: https://gohugo.io/hugo-pipes/minification/
+        run: cd site && hugo -D --minify # Remove --minify tag if you do not need it, docs: https://gohugo.io/hugo-pipes/minification/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+          publish_dir: ./site/public
           publish_branch: gh-pages
           enable_jekyll: false
           keep_files: false
