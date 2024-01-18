@@ -1,2 +1,3 @@
-site/.hugo_build.lock
-site/public/
+bin/debug/js/website.js
+bin/release/js/website.js
+bin/css/style.min.min.css
