@@ -96,8 +96,10 @@ a:hover {
     background: linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
 }
 
-footer {
-    margin: 0 auto;
-    width: 80%;
-    max-width: 80%;
+#logo {
+    margin: 20px;
+    position: fixed; 
+    bottom:0%;
+    right: 0%;
+    opacity: 1;
 }
