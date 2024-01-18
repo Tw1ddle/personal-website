@@ -1,4 +1,4 @@
-[![Sam Twidale Website Logo](https://github.com/Tw1ddle/personal-website/blob/master/screenshots/logo.png?raw=true "Sam Twidale Website Logo")](https://www.samcodes.co.uk/)
+[![Sam Twidale Website Logo](https://github.com/Tw1ddle/personal-website/blob/master/bin/assets/images/logo.png?raw=true "Sam Twidale Website Logo")](https://www.samcodes.co.uk/)
 
 ![Sam Twidale Website Build Status](https://github.com/Tw1ddle/personal-website/actions/workflows/main.yml/badge.svg)
 
