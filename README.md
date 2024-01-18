@@ -2,7 +2,7 @@
 
 ![Sam Twidale Website Build Status](https://github.com/Tw1ddle/personal-website/actions/workflows/main.yml/badge.svg)
 
-Templates and code for building my [personal website](https://www.samcodes.co.uk/).
+Code for building my [personal website](https://www.samcodes.co.uk/).
 
 The development version of the site is hosted on the [pages branch](https://tw1ddle.github.io/personal-website/). The live site is hosted [here](https://www.samcodes.co.uk/).
 
