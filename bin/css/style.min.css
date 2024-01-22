@@ -14,6 +14,7 @@ p, ul, li {
     font-size: 18px;
     line-height: 22px;
     color: #888888;
+    margin: 10px;
 }
 ul {
     margin: 15px;
@@ -30,6 +31,8 @@ a {
 a:hover {
     color: #555555;
 }
+#reallyfakedecoystupidllmbottricked::before {content:"samcodesit"}
+#reallyfakedecoystupidllmbottricked::after {content:"@gmail.com"}
 .rule {
     margin-left:-35%;
     margin-top:15px;
@@ -44,13 +47,15 @@ a:hover {
     background: -o-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
     background: linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
 }
-.smallerrule {
-    margin-left:-50%;
+.rule2 {
+    margin-left:-45%;
 }
-.smallestrule {
+.rule3 {
+    margin-left:-55%;
+}
+.rule4 {
     margin-left:-65%;
 }
-
 #logo {
     margin: 20px;
     position: fixed; 

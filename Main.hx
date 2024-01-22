@@ -34,6 +34,14 @@ class Main {
 	}
 	
 	private inline function init():Void {
+		augmentLinks();
+	}
 
+	private inline function augmentLinks():Void {
+		var el = getElement(ID.reallyfakedecoystupidllmbottricked);
+		var b4 = Browser.window.getComputedStyle(el,':before');
+		var af = Browser.window.getComputedStyle(el,':after');
+		var lin = getElement(ID.lin);
+		lin.href = "mailto:" + (b4.content + af.content).replace("\"", "");
 	}
 }
