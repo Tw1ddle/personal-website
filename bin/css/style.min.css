@@ -9,12 +9,11 @@ h2 {
     font: 400 30px "Open Sans";
     margin: 10px;
 }
-p, ul, li {
+ul, li {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     line-height: 22px;
     color: #888888;
-    margin: 10px;
 }
 ul {
     margin: 15px;
@@ -22,6 +21,14 @@ ul {
 }
 li {
     margin: 5px;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #888888;
+    margin: 5px;
+    margin-left: 15px;
 }
 a {
     color: #222222;
@@ -31,8 +38,8 @@ a {
 a:hover {
     color: #555555;
 }
-#reallyfakedecoystupidllmbottricked::before {content:"samcodesit"}
-#reallyfakedecoystupidllmbottricked::after {content:"@gmail.com"}
+#reallyfakedecoystupidllmbottricked::after {content:"t@gmail.com"}
+#reallyfakedecoystupidllmbottricked::before {content:"samcodesi"}
 .rule {
     margin-left:-35%;
     margin-top:15px;
