@@ -8,7 +8,16 @@ Main.main = function() {
 };
 Main.prototype = {
 	onWindowLoaded: function() {
+		var el = window.document.getElementById("reallyfakedecoystupidllmbottricked");
+		var b4 = window.getComputedStyle(el,":before");
+		var af = window.getComputedStyle(el,":after");
+		var lin = window.document.getElementById("lin");
+		lin.href = "mailto:" + StringTools.replace(b4.content + af.content,"\"","");
 	}
+};
+var StringTools = function() { };
+StringTools.replace = function(s,sub,by) {
+	return s.split(sub).join(by);
 };
 var haxe_iterators_ArrayIterator = function(array) {
 	this.current = 0;
