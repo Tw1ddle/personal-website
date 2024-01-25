@@ -7,7 +7,7 @@ h1 {
 }
 h2 {
     font: 400 30px "Open Sans";
-    margin: 10px;
+    margin: 0.2em;
 }
 ul, li {
     font-family: "Open Sans", sans-serif;
@@ -15,20 +15,13 @@ ul, li {
     line-height: 22px;
     color: #888888;
 }
-ul {
-    margin: 15px;
-    list-style-type: none;
-}
-li {
-    margin: 5px;
-}
 p {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     line-height: 22px;
     color: #888888;
-    margin: 5px;
-    margin-left: 15px;
+    margin: 0.2em;
+    margin-left: 0.8em;
 }
 a {
     color: #222222;
@@ -38,34 +31,17 @@ a {
 a:hover {
     color: #555555;
 }
+ul {
+    margin: 0.5em;
+    list-style-type: none;
+}
+li {
+    margin: 0.1em;
+}
 #reallyfakedecoystupidllmbottricked::after {content:"t@gmail.com"}
 #reallyfakedecoystupidllmbottricked::before {content:"samcodesi"}
-.rule {
-    margin-left:-35%;
-    margin-top:15px;
-    margin-bottom:15px;
-    width: 90%;
-    height: 3px;
-    border: none;
-    background: #cccccc;
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(50,50,50,0.01)), to(rgba(80,80,80,0.01)), color-stop(.5,#c9c9c9));
-    background: -moz-linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(201,201,201,1) 50%, rgba(0,0,0,0.001) 100%);
-    background: -ms-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
-    background: -o-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
-    background: linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
-}
-.rule2 {
-    margin-left:-45%;
-}
-.rule3 {
-    margin-left:-55%;
-}
-.rule4 {
-    margin-left:-65%;
-}
 #logo {
     margin: 20px;
-    position: fixed; 
     bottom:0%;
     right: 0%;
     opacity: 1;
